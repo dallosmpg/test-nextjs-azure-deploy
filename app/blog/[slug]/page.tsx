@@ -10,3 +10,7 @@ export async function generateStaticParams() {
       id: post.id
     }))
   }
+
+function terminal(params:string): void {
+ console.log('Hány éves vagyok?'); 
+}

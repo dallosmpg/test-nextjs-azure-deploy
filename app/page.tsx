@@ -12,6 +12,9 @@ export default function Page() {
       <Link className="link" href={"/dashboard"} >
         Go to Dashboard
       </Link>
+      <Link className="link" href={"/animation"}>
+        Go to Animation
+      </Link>
     </>
   )
 }

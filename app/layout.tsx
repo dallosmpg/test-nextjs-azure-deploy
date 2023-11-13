@@ -28,8 +28,8 @@ export default function RootLayout(props: RootLayoutProps) {
       </nav>
         <div>
           {props.children}
-          {props.analytics}
-          {props.team}
+          {/* {props.analytics} */}
+          {/* {props.team} */}
         </div>
       </body>
     </html>
