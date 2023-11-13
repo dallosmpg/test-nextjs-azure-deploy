@@ -67,7 +67,7 @@ export default function Page() {
             <div className={styles.body}>
 
                 <div className={styles.line}>
-                    <div onMouseEnter={handleMouseEnter} onMouseMove={(e) => handleMouseMove(e)} onMouseLeave={handleMouseLeave} className={styles.box}></div>
+                    <div onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} className={styles.box}></div>
                     <svg>
                         <path ref={path}></path>
                     </svg>
